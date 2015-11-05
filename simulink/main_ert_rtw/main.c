@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'main'.
  *
- * Model version                  : 1.89
+ * Model version                  : 1.96
  * Simulink Coder version         : 8.8 (R2015a) 09-Feb-2015
- * C/C++ source code generated on : Wed Aug 12 13:42:19 2015
+ * C/C++ source code generated on : Thu Nov 05 11:09:24 2015
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex
@@ -225,7 +225,7 @@ void main_step(void)
   /* '<S17>:1:10' */
   /* '<S17>:1:13' */
   /* '<S17>:1:14' */
-  main_B.rtb_Phi_idx_0 = (rtb_Memory_idx_0 - main_Y.gyro[0] * 0.02) * 0.98 +
+  main_B.rtb_Phi_idx_0 = (rtb_Memory_idx_0 - main_Y.gyro[0] * 0.01) * 0.98 +
     (114.59155902616465 * rt_atan2d_snf(main_Y.acc[1], -main_Y.acc[2]) -
      rtb_Memory_idx_0) * 0.020000000000000018;
 

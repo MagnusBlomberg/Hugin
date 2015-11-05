@@ -2,7 +2,7 @@
 ## Makefile generated for Simulink model 'main'. 
 ## 
 ## Makefile     : main.mk
-## Generated on : Wed Aug 12 13:42:27 2015
+## Generated on : Thu Nov 05 11:11:20 2015
 ## MATLAB Coder version: 2.8 (R2015a)
 ## 
 ## Build Info:
@@ -29,7 +29,7 @@ MATLAB_ROOT               = C:/PROGRA~1/MATLAB/R2015a
 MATLAB_BIN                = C:/PROGRA~1/MATLAB/R2015a/bin
 MATLAB_ARCH_BIN           = C:/PROGRA~1/MATLAB/R2015a/bin/win64
 MASTER_ANCHOR_DIR         = 
-START_DIR                 = C:/Users/Quad/Documents/GitHub/Hugin-master/simulink
+START_DIR                 = C:/Users/Quad/Documents/GitHub/Hugin/simulink
 ARCH                      = win64
 SOLVER                    = 
 SOLVER_OBJ                = 
@@ -276,7 +276,7 @@ CPPFLAGS += $(CPPFLAGS_SKIPFORSIL) $(CPPFLAGS_BASIC)
 # C++ Linker
 #---------------
 
-CPP_LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl
+CPP_LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl -ldl
 CPP_LDFLAGS_SKIPFORSIL = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc"
 
 CPP_LDFLAGS += $(CPP_LDFLAGS_) $(CPP_LDFLAGS_SKIPFORSIL)
@@ -285,7 +285,7 @@ CPP_LDFLAGS += $(CPP_LDFLAGS_) $(CPP_LDFLAGS_SKIPFORSIL)
 # C++ Shared Library Linker
 #------------------------------
 
-CPP_SHAREDLIB_LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl
+CPP_SHAREDLIB_LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl -ldl
 CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc"
 
 CPP_SHAREDLIB_LDFLAGS += $(CPP_SHAREDLIB_LDFLAGS_) $(CPP_SHAREDLIB_LDFLAGS_SKIPFORSIL)
@@ -294,7 +294,7 @@ CPP_SHAREDLIB_LDFLAGS += $(CPP_SHAREDLIB_LDFLAGS_) $(CPP_SHAREDLIB_LDFLAGS_SKIPF
 # Linker
 #-----------
 
-LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl
+LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl -ldl
 LDFLAGS_SKIPFORSIL = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc"
 
 LDFLAGS += $(LDFLAGS_) $(LDFLAGS_SKIPFORSIL)
@@ -303,7 +303,7 @@ LDFLAGS += $(LDFLAGS_) $(LDFLAGS_SKIPFORSIL)
 # Shared Library Linker
 #--------------------------
 
-SHAREDLIB_LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl
+SHAREDLIB_LDFLAGS_ = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc" -ldl -ldl
 SHAREDLIB_LDFLAGS_SKIPFORSIL = -march=armv7-a -mfloat-abi=hard -mfpu=neon -mtune=cortex-a8 --sysroot="C:\MATLAB\SupportPackages\R2015a\libc"
 
 SHAREDLIB_LDFLAGS += $(SHAREDLIB_LDFLAGS_) $(SHAREDLIB_LDFLAGS_SKIPFORSIL)

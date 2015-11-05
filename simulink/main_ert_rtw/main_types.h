@@ -7,9 +7,9 @@
  *
  * Code generated for Simulink model 'main'.
  *
- * Model version                  : 1.89
+ * Model version                  : 1.96
  * Simulink Coder version         : 8.8 (R2015a) 09-Feb-2015
- * C/C++ source code generated on : Wed Aug 12 13:42:19 2015
+ * C/C++ source code generated on : Thu Nov 05 11:09:24 2015
  *
  * Target selection: ert.tlc
  * Embedded hardware selection: ARM Compatible->ARM Cortex

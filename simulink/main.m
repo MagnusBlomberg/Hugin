@@ -4,6 +4,8 @@ clear all;
 clc;
 
 time_end = 60*15;
+global time_step
+
 time_step = .02;
 
 % PWM variables
